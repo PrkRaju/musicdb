@@ -67,7 +67,7 @@ while ($row = mysqli_fetch_array($result)){
     echo"<div class='artist-card'>";
         echo"<img src='album/".$row['album_image']."'class='image' >";
         echo "<p style='color:white;'>".$row['date_of_release']."</p>";   
-        echo "<p><a href='albums/".$albumext.$row['album_id'].$ext."'>".$row['album_name']."</a></p>";
+        echo "<p><a href=".$albumext.$row['album_id'].$ext.">".$row['album_name']."</a></p>";
     echo"</div>";
 
 }
