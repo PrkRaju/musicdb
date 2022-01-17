@@ -40,9 +40,7 @@ CREATE TABLE `album` (
 -- Dumping data for table `album`
 --
 
-INSERT INTO `album` (`album_id`, `album_name`, `date_of_release`, `album_image`, `msdir_id`) VALUES
-(1, 'MASTER', '2021-01-13', 'master.jpg', 2),
-(2, 'JUSTICE', '2021-03-19', 'future.jpg', 1);
+
 
 --
 -- Indexes for dumped tables

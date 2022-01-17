@@ -37,10 +37,7 @@ CREATE TABLE `singer` (
 -- Dumping data for table `singer`
 --
 
-INSERT INTO `singer` (`singer_id`, `singer_name`) VALUES
-(1, 'Anirudh'),
-(2, 'Justin Bieber'),
-(3, 'Ed Sheeran');
+
 
 --
 -- Indexes for dumped tables

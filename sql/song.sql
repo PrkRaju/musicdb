@@ -44,18 +44,6 @@ CREATE TABLE `song` (
 -- Dumping data for table `song`
 --
 
-INSERT INTO `song` (`song_id`, `song_title`, `song_file`, `song_thumbnail`, `msdir_name`, `singer_name`, `msdir_id`, `singer_id`, `album_id`) VALUES
-(1, 'Holy', 'bieber.mp3', 'bieber.jpg', 'Justin Bieber', 'Justin Bieber', 1, 2, 2),
-(2, 'HEAT WAVES', 'heatwaves.mp3', 'HEAT WAVES.jpg', 'Glass Animals', '', NULL, NULL, NULL),
-(3, 'Peaches', 'peaches.mp3', 'peaches.jpg', 'Justin Bieber', 'Justin Bieber', 1, 2, 2),
-(4, 'Stay', 'stay.mp3', 'stay.jpg', 'Justin Bieber', 'Justin Bieber', 1, 2, NULL),
-(5, 'Sunflower', 'sunflower.mp3', 'sunflower.jpg', 'Post Malone', '', NULL, NULL, NULL),
-(6, 'Vaathi Coming', 'vaathi.mp3', 'vaathicoming.jpg', 'Anirudh', '', 2, 1, 1),
-(7, 'VIP', 'vip.mp3', 'ragh.jpg', 'Anirudh', 'Anirudh', 2, 1, NULL),
-(8, 'Bad Habits', 'badhabits.mp3', 'badhabits.jpg', 'Ed Sheeran', 'Ed Sheeran', 3, 1, NULL),
-(9, 'Aaluma Doluma', 'aaluma.mp3', 'aaluma.jpg', 'Anirudh', 'Anirudh', 2, 1, NULL),
-(10, 'Master Blaster', 'blaster.mp3', 'masterblaster.jpg', 'Anirudh', 'Anirudh', 2, 1, 1),
-(11, 'Luckanna Matte', 'luck.mp3', 'ragh.jpg', 'Anirudh', 'Anirudh', NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables

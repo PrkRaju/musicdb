@@ -40,10 +40,6 @@ CREATE TABLE `msdir` (
 -- Dumping data for table `msdir`
 --
 
-INSERT INTO `msdir` (`msdir_id`, `msdir_name`, `msdir_username`, `msdir_pwd`, `msdir_thumbnail`) VALUES
-(1, 'Justin Bieber', 'jbfever', 'jbmsdir', 'justin.jpg'),
-(2, 'Anirudh', 'aniravi', 'aniravmsdir', 'anirudh.jpg'),
-(3, 'Ed Sheeran', 'edsheesh', 'edsheermsdir', 'edsheeran.jpg');
 
 --
 -- Indexes for dumped tables
