@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(24, 47, 52);
+}
+#box{
+    width: auto;
+  border: 20px solid green;
+  padding-right: 500px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  margin: 2%;
+  
+    
+}
+#labelf{
+    color:white;
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    text-align:right;
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type=name] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    
+
+  }
+  input[type=time] {
+    width: 40%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    
+
+  }
+input[type=file]{
+    height:80px;
+    font-size:14pt;
+    color: aquamarine;
+    
+
+  }
+  input[type=submit]{
+    height:40px;
+    font-size:14pt;
+    
+    
+
+  }

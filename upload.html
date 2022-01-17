@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Upload Music</title>
+  <link rel="stylesheet" href="upload.css">
+  <link rel="icon" href="htmllogo.png">
+</head>
+
+
+<body>
+    <div id="box">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <h1>Upload Your Song</h1>
+        <label for="name" id="labelf">NAME:</label>
+    <input type="name" name="song_name" required>
+    
+    <label for="name" id="labelf"><br><br>Upload Your song:<br></label>
+    <input type="file" accept=".mp3" name="song_file" required>
+    <label for="name" id="labelf"><br>Upload Your song thumbail:<br></label>
+    <input type="file" accept=".jpg,.jpeg" name="song_thumbnail" required><br><br>
+    <label for="name" id="labelf">NAME of Music Director:</label>
+    <input type="name" name="msdir_name" required><br><br>
+    <label for="name" id="labelf">NAME of Singer(if any):</label>
+    <input type="name" name="singer_name"><br><br>
+    
+    <input type="submit" name="sub">
+    </form>
+    </div>
+
+
+</body>
+
+</html>
